@@ -1,0 +1,37 @@
+/*fonts link*/
+@font-face{
+	src: url(../fonts/ptsans-bold/ptsans-bold.ttf);
+	font-family: ptsans-bold;
+}
+
+@font-face{
+	src: url(../fonts/ptsans-bold/ptsans-regular.ttf);
+	font-family: ptsans-regular;
+}
+
+/*common start*/
+body{
+	font-family: 'pt-sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #010101;
+}
+/*common end*/
+header{
+	background-color: #fcdb00;
+	padding: 20px 0 ;
+}
+.h_nav{}
+.menu{}
+.menu ul li a{
+	font-size: 22px;
+    font-weight: 700;
+    color: #010101 !important;
+    padding: 0 30px !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: white !important;
+}
